@@ -1059,6 +1059,7 @@ focusmon(const Arg *arg)
 	focus(NULL);
 }
 
+int issinglewin(const Arg *arg);
 void
 focusstack(const Arg *arg)
 {
